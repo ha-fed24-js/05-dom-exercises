@@ -50,3 +50,17 @@ function deselectFoodButtons() {
 // const meatButton = document.querySelector('.food-button')
 // const fishButton = document.querySelector('.food-button:nth-child(2)')
 // const veggieButton = document.querySelector('.food-button:nth-child(3)')
+
+
+
+/*
+Exempel på algoritm för övning 7.3
+
++ Bygg designskiss
+
++ Vilka element interagerar vi med? - <button> -1 och +1, elementet som texten "1 biljett" ligger inuti
+
++ Variabel som kommer ihåg antalet biljetter
+
++ addEventListener för +1 och -1 knapparna
+*/
