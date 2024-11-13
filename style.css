@@ -1,10 +1,12 @@
 :root {
 	/* CSS-variabler */
-	--header-bg: #2c3e50;
-	--main-bg: #ecf0f1;
+	--header-bg: #3a5167;
+	--main-bg: #e4ecee;
 	--header-text: #000000;
 	--text: #2e2e2e;
 }
+/* Enklare hantering av width och height */
+* { box-sizing: border-box; }
 
 body {
 	font-size: 125%;
@@ -31,9 +33,19 @@ main {
 	flex-grow: 1;
 }
 
+/* En section för varje övning */
 section {
 	border: 1px solid var(--text);
 	border-radius: 0.2em;
 	padding: 0.75em;
 	margin: 0.3em 0;
+}
+
+/* 7.1 */
+.dynamic {
+    padding: 1em;
+    border-radius: 0.5em;
+}
+.frame {
+    border: 2px dashed rgb(33, 112, 131);
 }
