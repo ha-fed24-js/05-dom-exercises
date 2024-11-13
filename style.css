@@ -49,3 +49,20 @@ section {
 .frame {
     border: 2px dashed rgb(33, 112, 131);
 }
+
+/* 7.2 */
+h2 {
+	font-size: 1.3rem;
+	margin: 0;
+}
+.food-button {
+	font-size: 0.9em;
+	padding: 0.4em 1.4em;
+	border-radius: 0.4em;
+	background-color: transparent;
+	cursor: pointer;
+}
+/* food button OCH selected samtidigt */
+.food-button.selected {
+	background-color: #1c62a8;
+}
