@@ -66,3 +66,30 @@ h2 {
 .food-button.selected {
 	background-color: #1c62a8;
 }
+
+
+/* 7.6 */
+.lights {
+	display: inline-flex;
+	flex-direction: column;
+	border: 2px solid black;
+	background: darkgray;
+	padding: 0.25em;
+	margin: 0.3em;
+}
+.lights > * {
+	width: 2em;
+	height: 2em;
+	border-radius: 100%;
+	border: 1px solid black;
+	margin: 0.25em;
+}
+.top.on {
+	background-color: #F13C1E;
+}
+.middle.on {
+	background-color: #E7D81D;
+}
+.bottom.on {
+	background-color: #37A11D;
+}
